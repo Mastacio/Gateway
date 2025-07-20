@@ -1,0 +1,13 @@
+@GatewayBrickWise_HostAddress = http://localhost:4000
+
+# Prueba de acceso a ruta con el nuevo PathBase
+GET {{GatewayBrickWise_HostAddress}}/api/security/authentication
+Accept: application/json
+
+###
+
+# Prueba de acceso a Swagger
+GET {{GatewayBrickWise_HostAddress}}/api/security/swagger
+Accept: application/json
+
+###
